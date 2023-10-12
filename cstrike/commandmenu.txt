@@ -1,0 +1,48 @@
+// THIS FILE CONTAINS CODE FOR
+// ZBOT NAV EDITOR COMMANDMENU
+// MADE BY s0nought
+// https://gamebanana.com/members/1169455
+//
+// THIS COMMAND MENU CAN NOT BE USED WITHOUT zbotnavcm.cfg
+// SEE ...\cstrike\zbotnavcm\Readme.txt
+//
+// VERSION 1.2
+// GO TO https://gamebanana.com/guis/34522 TO DOWNLOAD UPDATES (IF AVAILABLE)
+//
+"1" "NAV EDITOR [ON/OFF]" "botnav01"
+"2" "CURRENT ZONE"
+{
+	"1" "MARK / UNMARK" "bind mouse1 botnav02"
+	"2" "SPLIT" "bind mouse1 botnav03"
+	"3" "DELETE" "bind mouse1 botnav04"
+}
+"3" "MARK ZONE AND ..."
+{
+	"1" "MERGE WITH ANOTHER" "bind mouse1 botnav05"
+	"2" "SPLICE TO ANOTHER" "bind mouse1 botnav06"
+	"3" "CONNECT WITH ANOTHER" "bind mouse1 botnav07"
+	"4" "DISCONNECT FROM ANOTHER" "bind mouse1 botnav08"
+}
+"4" "CREATE NEW ZONE" "bind mouse1 botnav09"
+"5" "ADD OR REMOVE A FLAG"
+{
+	"1" "CROUCH" "bind mouse1 botnav10"
+	"2" "JUMP" "bind mouse1 botnav11"
+	"3" "NO-JUMP" "bind mouse1 botnav12"
+	"4" "PRECISE" "bind mouse1 botnav13"
+}
+"6" "SAVE" "botnav14"
+"7" "DEBUG"
+{
+	"1" "ADD / KICK BOT" "botnav15"
+	"2" "BOT ZOMBIE [ON/OFF]" "botnav16"
+	"3" "SEND BOT TO ZONE" "bind mouse1 botnav17"
+	"4" "BOT TRACE VIEW [ON/OFF]" "botnav18"
+	"5" "HOSTAGE DEBUG [ON/OFF]" "botnav19"
+}
+"8" "ANALYZE"
+{
+	"1" "QUICK ANALYZE" "botnav20"
+	"2" "FULL ANALYZE" "botnav21"
+}
+"9" "SHOW HELP" "botnav22"
